@@ -1,0 +1,12 @@
+[package]
+name = "iwannafancyaddress"
+version = "0.1.0"
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+sp-core = { version = "6.0.0" }
+clap = { version = "3.2.6", features = ["derive"] }
+hex = "0.4.3"
+rand = { version = "0.8.5", features = ["small_rng"] }
+regex = "1.5.6"
